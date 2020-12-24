@@ -24,7 +24,7 @@ var number = prompt('How  many experience years do you have');
 for (var i = 1 ; i <= number ; i++){
 
     document.write('<img src="/images/chemical.jpg" alt="Picture"/>')
-
+    document.write(i)
 }
 
 
