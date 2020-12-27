@@ -43,7 +43,7 @@ var major=getInformation(major,'Please enter your major');
 
 var age=getInformation(age,'Please insert your age ');
 
-displayMessage(username,major,age)
+displayMessage(username,major,age);
 
 
 function takemessage(message){
@@ -60,7 +60,7 @@ function getInformation(userInput, message){
     while (userInput === undefined || userInput=== '' || userInput=== null){
     userInput=takemessage(message);}
 
-    return userInput
+    return userInput;
 
 
 
